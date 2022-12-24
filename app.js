@@ -18,5 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function jump(){
         birdBottom += 20
     }
-    document.addEventListener('keydown', jump)
+    document.addEventListener('mousedown', jump)
+    document.addEventListener('touchstart', jump)
 })
